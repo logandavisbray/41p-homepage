@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  #container{
+    display:flex;
+    justify-content:space-between;
+    }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #bbbbbb;
+  }
+
+  header a {
+    margin: 0 1em;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-left input {
+    margin-left: 1em;
+    padding: 0.5em;
+    width: 650px;
+  }
+
+  .headerimg img {
+    width: 100%;
+    height: 400px;
+  }
+  
+  main {
+    padding: 2em;
+  }
+
+  .featured h2 {
+    margin-top: 2em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+  }
+  
+  .featured-objects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .object {
+    width: 22%;
+    margin: 1em 0;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .object img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #bbbbbb;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .button:hover {
+    background-color: #8b8b8b;
+  }
+
+  footer {
+    text-align: center;
+    padding: 2em;
+    background-color: rgb(0, 95, 90);
+  }
+
+  footer h3 {
+    margin-left: 28%;
+  }
+  
+  footer a {
+    margin: 0 0.5em;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .subscribe {
+    margin-right: 0.5em;
+    background-color: #dbdbdb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3em;
+    background-color: #bbbbbb;
+  }
+
+  .subscribe input {
+    margin-left: 0em;
+    padding: 0.5em;
+    width: 1300px;
+  }
+
+  .subscribe h2 {
+    margin-left: 1em;
+  }
+
+  ul {
+    list-style-type: none;
+    text-align: left;
+  }
+
+  .media_icon {
+    height: 30px;
+    width: 30px;
+    padding: 0.1em;
+  }
